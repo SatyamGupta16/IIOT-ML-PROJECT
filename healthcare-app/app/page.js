@@ -27,7 +27,8 @@ export default function LandingPage() {
       <nav className="bg-white border-b px-6 py-4 flex justify-between items-center sticky top-0 z-10">
         <div className="flex items-center gap-2">
           <span className="text-2xl">🏥</span>
-          <span className="text-xl font-bold text-blue-600">HealthCare AI</span>
+          {/* ✅ Updated name */}
+          <span className="text-xl font-bold text-blue-600">Healthcare Prediction & Diagnosis</span>
         </div>
         <div className="flex gap-3">
           <button
@@ -47,9 +48,10 @@ export default function LandingPage() {
       <section className="bg-gradient-to-br from-blue-50 to-white py-20 px-6 text-center">
         <div className="max-w-3xl mx-auto">
           <div className="text-6xl mb-6">🏥</div>
+          {/* ✅ Updated title */}
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            AI-Powered Healthcare
-            <span className="text-blue-600"> Prediction System</span>
+            Healthcare
+            <span className="text-blue-600"> Prediction & Diagnosis</span>
           </h1>
           <p className="text-lg text-gray-500 mb-8 max-w-xl mx-auto">
             Advanced machine learning models to predict diseases, assess risks,
@@ -137,7 +139,6 @@ export default function LandingPage() {
             Built for Everyone
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Doctor Card */}
             <div className="bg-white rounded-2xl p-8 shadow-sm border border-blue-100">
               <div className="text-5xl mb-4">👨‍⚕️</div>
               <h3 className="text-xl font-bold text-blue-600 mb-4">For Doctors</h3>
@@ -157,7 +158,6 @@ export default function LandingPage() {
               </button>
             </div>
 
-            {/* Patient Card */}
             <div className="bg-white rounded-2xl p-8 shadow-sm border border-green-100">
               <div className="text-5xl mb-4">🧑‍💼</div>
               <h3 className="text-xl font-bold text-green-600 mb-4">For Patients</h3>
@@ -198,13 +198,14 @@ export default function LandingPage() {
       </section>
 
       {/* Footer */}
+      {/* ✅ Updated footer name */}
       <footer className="bg-gray-900 text-gray-400 py-8 px-6 text-center">
         <div className="flex items-center justify-center gap-2 mb-2">
           <span className="text-xl">🏥</span>
-          <span className="text-white font-semibold">HealthCare AI</span>
+          <span className="text-white font-semibold">Healthcare Prediction & Diagnosis</span>
         </div>
         <p className="text-sm">Built with Next.js · FastAPI · Supabase · Machine Learning</p>
-        <p className="text-xs mt-2 text-gray-600">© 2026 HealthCare AI. All rights reserved.</p>
+        <p className="text-xs mt-2 text-gray-600">© 2026 Healthcare Prediction & Diagnosis. All rights reserved.</p>
       </footer>
 
     </div>
