@@ -35,7 +35,7 @@ export default function ClusteringPredict() {
     setResult(null)
 
     try {
-      const response = await fetch('http://localhost:8000/predict/clustering', {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/predict/clustering`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

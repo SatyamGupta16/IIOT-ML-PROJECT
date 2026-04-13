@@ -61,7 +61,7 @@ export default function DiseasePredict() {
     SYMPTOMS.forEach(s => { symptoms[s] = selected[s] || 0 })
 
     try {
-      const response = await fetch('http://localhost:8000/predict/disease', {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/predict/disease`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ symptoms })

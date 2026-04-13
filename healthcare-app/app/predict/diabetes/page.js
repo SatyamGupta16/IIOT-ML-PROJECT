@@ -29,7 +29,7 @@ export default function DiabetesPredict() {
     setResult(null)
 
     try {
-      const response = await fetch('http://localhost:8000/predict/diabetes', {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/predict/diabetes`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
