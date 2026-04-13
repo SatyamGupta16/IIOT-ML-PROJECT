@@ -1,4 +1,4 @@
-# 🏥 HealthCare AI — Full-Stack Healthcare Prediction & Diagnosis System
+# 🏥 Healthcare Prediction & Diagnosis — Full-Stack ML-Based Healthcare System
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Python-009688?style=flat-square&logo=fastapi)
@@ -6,7 +6,7 @@
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-F7931E?style=flat-square&logo=scikit-learn)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=flat-square&logo=tailwind-css)
 
-> An AI-powered healthcare web application for disease prediction and diagnosis using machine learning models. Built for doctors and patients with role-based access control.
+> A full-stack healthcare web application that uses machine learning models to predict diseases, assist doctors, and provide patients with real-time diagnosis insights. Built with secure role-based access for doctors and patients.
 
 ---
 
@@ -27,7 +27,15 @@
 
 ## 🎯 Overview
 
-HealthCare AI is a full-stack web application that connects doctors and patients through a secure platform. Doctors can run ML-powered predictions, manage patient records, and write digital prescriptions. Patients can view their prediction results, prescriptions, and health history.
+Healthcare Prediction & Diagnosis is a full-stack machine learning-based web application designed to provide intelligent healthcare solutions through data-driven insights.
+
+The platform connects doctors and patients in a secure environment, enabling efficient diagnosis, monitoring, and treatment support.
+
+- Doctors can analyze patient data, run ML-powered predictions, and generate digital prescriptions  
+- Patients can access their health reports, predictions, and medical history anytime  
+- The system uses trained machine learning models to detect patterns and assist in early disease prediction  
+
+By combining modern web technologies with machine learning, this system improves clinical decision-making, enhances accessibility, and supports smarter healthcare delivery.
 
 ---
 
