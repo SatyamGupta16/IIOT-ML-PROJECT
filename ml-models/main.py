@@ -7,7 +7,12 @@ app = FastAPI(title="Healthcare ML API")
 # Allow Next.js frontend to call this API
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=[
+        "http://localhost:3000",
+        "http://localhost:3000/",
+        "https://healthcare-app-black.vercel.app",
+        "https://healthcare-app-black.vercel.app/",
+    ],  # ✅ comma added here
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
